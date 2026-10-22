@@ -1,6 +1,13 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+
+priority_harm: "No detectar casos positivos que requieren revision humana, especialmente cuando el recall difiere entre grupos."
+
+primary_metric: "Recall (TPR) y brecha de recall entre grupos; FPR como indicador complementario."
+
+tolerance: "Recall minimo de 0.68, brecha maxima de recall de 0.16 y brecha maxima de FPR de 0.16, segun configs/governance.yml."
+
+evidence: "Logistic: brecha de recall 0.138 y FPR 0.125. Tree: brecha de recall 0.181 y FPR 0.169. Logistic presenta menores brechas y menor tamano serializado (3.56 KB frente a 7.87 KB)."
+
+limitation: "Datos sinteticos; grupos interseccionales pequenos, incluido G2 de 45-59 anos con 8 registros. Las diferencias observadas no demuestran discriminacion causal y requieren validacion adicional."
+
+recommendation: "REVIEW. Mantener Logistic como candidato para evaluacion adicional, sin autorizar despliegue operativo. Investigar brechas, comprobar controles y conservar supervision humana."
+
