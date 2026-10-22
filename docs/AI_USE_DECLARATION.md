@@ -46,3 +46,28 @@ La IA se utilizó como herramienta de apoyo y no como fuente de evidencia empír
 La ejecución técnica fue verificada en el entorno local. La responsabilidad por la selección y justificación de los riesgos, la interpretación de resultados y la decisión final corresponde a la estudiante.
 
 La recomendación documentada es **REVIEW**, sin autorización de despliegue operativo.
+
+---
+
+## Uso de IA — LAB12: Auditoría de equidad con Fairlearn
+
+**Herramienta:** ChatGPT (OpenAI).
+
+**Finalidad:** apoyo para interpretar métricas de clasificación y equidad, comparar modelos, analizar resultados interseccionales y estructurar la decisión documentada.
+
+**Solicitudes relevantes:** explicación de accuracy, recall, FPR y tasa de selección; comparación entre Logistic y Tree; identificación de limitaciones por tamaño de muestra; interpretación de compromisos entre desempeño, equidad y costo computacional.
+
+**Archivos afectados:**
+- `student_inputs/lab12_decision.yml`
+- `reports/lab12/logistic/`
+- `reports/lab12/tree/`
+
+**Verificaciones:** los modelos se ejecutaron localmente sobre 160 registros de prueba. Se verificaron métricas globales, por grupo e interseccionales. El script de validación confirmó `decision_status: documented` y las pruebas específicas finalizaron con 2 pruebas aprobadas.
+
+**Resultados principales:** Logistic obtuvo accuracy de 71.88 %, recall de 71.74 % y menores brechas entre grupos que Tree. Ambos modelos alcanzaron el mismo recall global.
+
+**Limitaciones:** los datos son sintéticos, algunos subgrupos tienen pocas observaciones y las diferencias de desempeño no demuestran discriminación causal. Los tiempos de entrenamiento corresponden a una ejecución por modelo y no permiten establecer conclusiones definitivas sobre consumo energético.
+
+**Correcciones y decisiones:** se revisaron las diferencias entre modelos y sus límites de interpretación. No fue necesario modificar el código fuente de LAB12. Se documentó `REVIEW`, conservando Logistic como candidato para evaluación adicional, sin autorizar su despliegue.
+
+La IA apoyó la interpretación y redacción; los resultados fueron obtenidos mediante ejecuciones locales y la responsabilidad de la decisión corresponde a la estudiante.
