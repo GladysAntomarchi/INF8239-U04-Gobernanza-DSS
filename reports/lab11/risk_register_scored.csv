@@ -1,0 +1,9 @@
+id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual,priority
+R02,Datos incompletos generan prioridades incorrectas,Casos territoriales evaluados,3,3,Validar integridad y calidad antes de predecir,Equipo de datos,Pruebas de contrato y reporte de validacion,medium,9
+R01,Priorizacion desigual entre grupos,Grupos territoriales evaluados,2,4,Auditoria de equidad y revision humana,Equipo de datos,Informe Fairlearn y registro de revisiones,high,8
+R07,Exposicion indebida de atributos sensibles,Grupos sujetos a auditoria,2,4,Restringir acceso y excluir atributos protegidos del modelo,Responsable de privacidad,Pruebas de privacidad y registro de accesos,high,8
+R03,Uso del sistema para fines no autorizados,Poblacion potencialmente afectada,2,3,Restringir usos y documentar finalidad,Responsable institucional,Politica de gobernanza y registro de autorizaciones,medium,6
+R06,Cambios en los datos reducen el desempeno del modelo,Casos territoriales evaluados,3,2,Monitorear indicadores y activar alertas,Equipo de datos,Reporte de monitoreo y alertas,medium,6
+R04,Recomendacion utilizada como decision automatica,Personas sujetas a revision,1,4,Exigir aprobacion humana antes de actuar,Responsable operativo,Registro de aprobaciones y anulaciones,medium,4
+R05,Ausencia de revision ante una recomendacion cuestionada,Personas potencialmente afectadas,2,2,Habilitar apelacion y revision independiente,Responsable operativo,Registro de apelaciones y resoluciones,low,4
+R08,Imposibilidad de reconstruir una recomendacion,Responsables y personas afectadas,1,3,Registrar version politica evidencia y accion humana,Responsable institucional,Historial de decisiones y versiones,low,3

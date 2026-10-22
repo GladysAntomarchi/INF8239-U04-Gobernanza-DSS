@@ -1,0 +1,5 @@
+stakeholder,benefit,harm,power,participation
+Affected person,Revision mas oportuna de casos prioritarios,Retrasos o priorizacion injusta por errores del sistema,low,Canal de apelacion y revision humana documentada
+Operator,Apoyo para organizar y justificar revisiones,Sesgo de automatizacion o confianza excesiva en recomendaciones,medium,Capacitacion y registro de decisiones anuladas
+Institutional owner,Mayor trazabilidad y control de prioridades,Responsabilidad por decisiones inadecuadas o falta de supervision,high,Revision periodica de riesgos y aprobacion documentada
+Data team,Identificacion de problemas de calidad y desempeno,Errores en datos o modelos que afecten las recomendaciones,medium,Auditorias tecnicas y seguimiento de indicadores

@@ -1,9 +1,12 @@
-purpose: REPLACE
-assisted_decision: REPLACE
-users: REPLACE
-affected_population: REPLACE
-owner: REPLACE
-non_predictive_alternative: REPLACE
-out_of_scope_use: REPLACE
-withdrawal_condition: REPLACE
-appeal_mechanism: REPLACE
+
+purpose: "Priorizar casos territoriales sinteticos para revision humana, sin ejecutar decisiones automaticas."
+assisted_decision: "Recomendar el orden de revision de casos segun su prioridad estimada y la evidencia disponible."
+users: "Analistas responsables de revisar los casos y personal autorizado para supervisar el DSS."
+affected_population: "Casos territoriales sinteticos; en una aplicacion real, las personas o comunidades sujetas a revision."
+owner: "Responsable institucional del DSS, encargado de autorizar su uso y supervisar sus riesgos."
+non_predictive_alternative: "Aplicar una lista de verificacion con criterios definidos y priorizacion manual documentada."
+out_of_scope_use: "Prohibido utilizar el sistema para intervenciones automaticas, decisiones de elegibilidad o declaraciones de emergencia."
+withdrawal_condition: "Suspender su uso cuando se incumplan los limites aprobados de desempeno, equidad o privacidad, o cuando no exista supervision humana efectiva."
+appeal_mechanism: "Permitir la revision de recomendaciones por una persona autorizada, documentando objeciones, correcciones y decision final."
+
+
