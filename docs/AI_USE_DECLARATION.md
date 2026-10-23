@@ -71,3 +71,44 @@ La recomendación documentada es **REVIEW**, sin autorización de despliegue ope
 **Correcciones y decisiones:** se revisaron las diferencias entre modelos y sus límites de interpretación. No fue necesario modificar el código fuente de LAB12. Se documentó `REVIEW`, conservando Logistic como candidato para evaluación adicional, sin autorizar su despliegue.
 
 La IA apoyó la interpretación y redacción; los resultados fueron obtenidos mediante ejecuciones locales y la responsabilidad de la decisión corresponde a la estudiante.
+
+
+---
+
+## Uso de IA — LAB13: Gobernanza y DSS responsable
+
+**Herramienta:** ChatGPT (OpenAI).
+
+**Finalidad:** apoyo para documentar la gobernanza del DSS,
+interpretar resultados, corregir errores y preparar el simulacro.
+
+### Actividades asistidas
+
+1. Revisión de la matriz RACI y las políticas de gobernanza.
+2. Interpretación de las métricas y puertas técnicas del DSS.
+3. Elaboración de Model Card, Dataset Card y Runbook.
+4. Corrección del error de sintaxis en `simulate_incident.py`.
+5. Documentación del simulacro de incidente y sus limitaciones.
+6. Verificación del tablero Streamlit y las pruebas automatizadas.
+
+### Verificaciones realizadas
+
+- Ejecución de `lab13_governance.py`: resultado `GO`.
+- Cinco puertas técnicas aprobadas.
+- Simulación ejecutada y documentada.
+- Aplicación Streamlit comprobada visualmente.
+- Pruebas finales: 10 aprobadas.
+
+### Limitaciones y responsabilidad
+
+La IA apoyó la redacción y el análisis, pero no generó
+las métricas del modelo.
+
+El incidente documentado fue simulado; no se realizaron
+comunicaciones ni procedimientos reales de rollback.
+
+La decisión técnica `GO` no constituye autorización
+institucional para utilizar el sistema con datos reales.
+
+La responsabilidad por las conclusiones y su verificación
+corresponde a la estudiante.
